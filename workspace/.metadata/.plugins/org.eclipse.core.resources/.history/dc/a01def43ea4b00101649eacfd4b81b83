@@ -1,0 +1,13 @@
+package methodTest;
+
+public class MethodTest {
+		int f(int x){
+				return 2 * x + 1;
+		}
+		public static void main(String[] args) {
+				MethodTest methodTest = new MethodTest();
+				methodTest.f(3);
+		}
+		
+		
+}

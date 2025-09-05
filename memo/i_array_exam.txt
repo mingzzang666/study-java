@@ -1,0 +1,12 @@
+☆★ 잘 모르겠으면 대입하기 ☆★
+
+1: arData[0] = 5
+2: arData[1] = 4
+...
+5: arData[4] = 1
+
+
+1: System.out.println(arData[0]);
+2: System.out.println(arData[1]);
+...
+5: System.out.println(arData[4]);

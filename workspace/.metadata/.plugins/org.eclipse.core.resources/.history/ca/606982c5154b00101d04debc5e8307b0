@@ -1,0 +1,54 @@
+package arrayTest;
+
+import java.util.Scanner;
+
+public class ArTask02 {
+		public static void main(String[] args) {
+////				다음과 같은 값이 주어졌을 때, 정수 배열의 합 구하기
+//			int[] arData = {10, 20, 30, 40, 50};
+//			int result = 0;
+//			
+//			for (int i = 0; i < arData.length; i++) {
+//					result = result + arData[i];
+//			}
+//			
+//			System.out.println("배열의 총합: " + result);
+		
+//			아래와 같은 배열이 있을 때, 배열에서 가장 큰 값 출력하기
+//			int[] scores = {88, 92, 79, 95, 80};
+//			int result = 0;
+//			
+//			for (int i = 0; i < scores.length; i++) {
+//					if(scores[i] > result) {
+//						result = scores[i];
+//					}
+//			}
+//			
+//			System.out.println("최댓값: " + result);
+			
+//			사용자 입력으로 배열 만들기
+//			입력 예시) 10 20 30 40 50
+//			출력 예시) 입력한 값 : 10 20 30 40 50
+			
+			Scanner sc = new Scanner(System.in);
+			String result = "";
+			
+			int[] arData  = new int[5];
+			
+			for (int i = 0; i < arData.length; i++) {
+				arData[i] = sc.nextInt();
+				result = result + " " + arData[i];
+			
+			System.out.println("입력한 값: " + result);
+//			
+////			아래 배열을 거꾸로 출력하세요.
+//			
+//			int[] data = {1, 2, 3, 4, 5};
+////			출력 예시 ) 5 4 3 2 1
+	
+			
+			
+			
+			
+		}
+}

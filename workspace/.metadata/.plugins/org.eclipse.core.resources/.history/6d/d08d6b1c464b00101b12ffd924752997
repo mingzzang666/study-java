@@ -1,0 +1,59 @@
+package stringTest;
+
+import java.util.Scanner;
+
+public class StringTest {
+   public static void main(String[] args) {
+//      String의 초기값은 ""이 아니라 null이다.
+      
+//      선언 후 문자열 연결을 사용하고자 한다면, ""(빈 문자열)로 초기화한다.
+//      String data = "";
+      
+//      선언 후 문자열 연결을 사용하지 않으면, null로 초기화한다.
+//      String data = null;
+      
+//      data += "ABC";
+//      System.out.println(data);
+      
+//      data = "ABC";
+//      System.out.println(data);
+      
+//      String data = "ABC";
+//      System.out.println(data.length());
+//      System.out.println(data.charAt(2));
+//      System.out.println(data.indexOf('Z'));
+      
+//      data = "CABC";
+//      System.out.println(data.indexOf('C'));
+//      System.out.println(data.lastIndexOf('C'));
+//      System.out.println(data.contains("C"));
+//      System.out.println(data.contains("Z"));
+//      System.out.println(data.substring(1));
+//      System.out.println(data.substring(1, 2));
+//      System.out.println(data.substring(1, 3));
+//      System.out.println(data.replace('A', 'Z'));
+//      System.out.println(data.replace('C', 'Z'));
+//      System.out.println(data.replaceAll("ABC", "Z"));
+      
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

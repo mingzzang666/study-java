@@ -1,0 +1,11 @@
+package bank;
+
+public class Shinhan extends Bank {
+	public Shinhan() {;}
+	
+	public Shinhan(String name, String account, String phone, String password, int money) {
+		super();
+	}
+
+
+}

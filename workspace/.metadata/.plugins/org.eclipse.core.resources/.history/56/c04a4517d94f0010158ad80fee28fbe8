@@ -1,0 +1,11 @@
+package bank;
+
+public class Kakao extends Bank {
+	public Kakao() {;}
+	
+	@Override
+	public int showBalance() {
+		return super.showBalance();
+	}
+
+}

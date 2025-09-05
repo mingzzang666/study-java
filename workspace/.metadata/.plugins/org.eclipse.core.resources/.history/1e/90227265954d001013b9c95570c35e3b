@@ -1,0 +1,15 @@
+package inheritanceTest;
+
+	
+	class A{
+			String name;
+			int age;
+	}
+	class B extends A{
+		
+	}
+
+	
+	
+	public class InheritaceTest01 {
+}

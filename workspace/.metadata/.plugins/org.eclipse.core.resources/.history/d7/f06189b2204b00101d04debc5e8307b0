@@ -1,0 +1,142 @@
+package arrayTest;
+
+import java.util.Iterator;
+
+public class ArTask {
+			public static void main(String[] args) {
+////						1 ~ 10까지 배열에 담고 출력
+//				int[] arData = new int[10];
+//				
+//				for (int i = 0; i < arData.length; i++) {
+//					arData[i] = i + 1;
+//				}				
+//				
+//				for (int i = 0; i < arData.length; i++) {
+//					System.out.println(arData[i]);
+//				}
+//				
+////						10 ~ 1까지 중 짝수만 배열에 담고 출력
+//				int[] arData = new int[5];
+//				
+//				for (int i = 0; i < arData.length; i++) {
+//					arData[i] = (5 - 1) * 2;
+//					
+//					System.out.println(arData[i]);
+//				}
+//				
+////						1 ~ 100까지 배열에  담은 후 홀수만 출력
+//				int[] arData = new int[100];
+//				
+//				for (int i = 0; i < arData.length; i++) {
+//					arData[i] = i + 1;
+//				}
+//				
+//				for (int i = 0; i < arData.length; i++) {
+//					if(arData[i] % 2 == 1) {
+//						System.out.println(arData[i]);
+//					}
+//				}
+				
+//				반복횟수를 최소화하기
+				
+//				1 ~ 100까지 배열에 담은 후 짝수의 합 출력
+//				int[] arData = new int[100];
+//				int result = 0;
+//				
+//				for (int i = 0; i < arData.length; i++) {
+//					arData[i] = i + 1;
+//				}
+//				
+//				for (int i = 0; i < 50; i++) {
+//					result = result + arData[i * 2];
+//				}
+//				
+//				System.out.println(result);
+				
+				
+			
+				
+				
+				
+//				A ~ F까지 배열에 담고 출력
+				
+//				int[] arData = new int[6];				
+//				for(int i = 0; i < 6; i++) {
+//					char c = (char)(65 + i);
+//					arData[i] = c;
+//					System.out.println((char)arData[i]);
+//				}
+				
+				
+//				A ~ F까지 중 C를 제외하고 배열에 담은 후 출력
+				
+//				int[] arData = new int[5];
+//				for(int i = 0; i < 5; i++) {
+//					arData[i] = (char)((i > 1 ? 66 : 65) + i);
+//					System.out.println((char)arData[i]);
+//				}
+//				문자 배열에 담기
+				
+//				char[] arData = new char[6];
+//				for (int i = 0; i < arData.length; i++) {
+//					arData[i] = (char)(65 + i) ;
+//					System.out.println(arData[i]);
+//				}
+				
+//				char[] arData = new char[5];
+//				for (int i = 0; i < arData.length; i++) {
+//					arData[i] = (char)((i > 1 ? 66 : 65) + i);
+//					System.out.println(arData[i]);
+//				}
+				
+				char[] arData = new char[5];
+				for (int i = 0; i <arData.length; i++) {
+					if(i == 2) {
+						continue;
+					}
+					arData[i] = (char)(65 + i);
+					System.out.println(arData[i]);
+				}
+				
+//				(1)	001.png ~ 010.png 를 배열에 담고 출력
+				
+//				i /10 < 1				: 00
+//				i /10 < 10				: 0
+//				i /10 < 100 			:
+//				String[] arData = new String[10];
+//				
+//				for(int i = 0; i < 10; i++) {
+//					String fileName = "";
+//					
+//						String zero = "";
+//						
+//						if((i + 1) / 10 < 1) {
+//								zero = "00";
+//						}else if((i + 1) / 10 < 10) {
+//								zero = "0";
+//						}
+//						
+//						fileName += zero;
+////						fileName = fileName + (i + 1);
+//						fileName += i + 1;
+//						fileName += ".png";
+//						arData[i] = fileName;
+////						System.out.println(fileName);
+//				}
+//				
+//				for(int i = 0; i < arData.length; i++) {
+//					System.out.println(arData[i]);
+//				}
+				
+//				(2)	001.png ~ 010.png 를 배열에 담고 출력
+//				(글자수의 길이를 사용)
+				
+//				(3)	001.png ~ 010.png 를 배열에 담고 출력
+//				서식문자 사용
+				
+				
+				
+				
+			}
+
+}

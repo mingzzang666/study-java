@@ -1,0 +1,32 @@
+package stringTest;
+
+import java.util.Scanner;
+
+public class StringTask {
+			public static void main(String[] args) {
+//					사용자에게 입력받은 문자열 중
+//					소문자는 모두 대문자로, 대문자는 모두 소문자로 변경한다.
+				
+				Scanner sc = new Scanner(System.in);
+				String text = null;
+				String changeText = null;
+				
+				text = sc.next();
+//				System.out.println(text);
+				for(int i = 0; i < text.length(); i++) {
+					changeText = text.charAt(i);
+					System.out.println(changeText);
+				}
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			}
+
+}

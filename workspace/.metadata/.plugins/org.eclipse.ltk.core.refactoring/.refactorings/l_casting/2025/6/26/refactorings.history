@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;bookCount&apos; in &apos;castingTest.CastingTask006.main(...)&apos; to &apos;book&apos;&#x0D;&#x0A;- Original project: &apos;l_casting&apos;&#x0D;&#x0A;- Original element: &apos;castingTest.CastingTask006.main(String[]).bookCount&apos;&#x0D;&#x0A;- Renamed element: &apos;bookCount&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;bookCount&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;castingTest{CastingTask006.java[CastingTask006~main~\[QString;@bookCount!1077!1116!1083!1091!\[I!0!false" name="book" references="true" stamp="1750635915914" version="1.0"/>
+</session>

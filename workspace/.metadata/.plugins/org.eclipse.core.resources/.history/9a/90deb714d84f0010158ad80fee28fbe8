@@ -1,0 +1,17 @@
+package bank;
+
+public class Shinhan extends Bank {
+	public Shinhan() {;}
+	
+	public Shinhan(String name, String account, String phone, String password, int money) {
+		super();
+	}
+	
+	@Override
+	public void deposit(int money) {
+		money /= 2;
+		super.deposit(money);
+	}
+
+
+}

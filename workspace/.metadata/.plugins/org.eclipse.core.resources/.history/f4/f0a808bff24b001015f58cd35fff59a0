@@ -1,0 +1,49 @@
+package methodTest;
+
+import java.util.Scanner;
+
+public class MethodTask {
+//   1 ~ 10까지 println()으로 출력하는 메소드
+   void printFrom1To10(){
+      for (int i = 0; i < 10; i++) {
+         System.out.println(i + 1);
+      }
+   }
+   
+//   "홍길동"을 n번 println()으로 출력하는 메소드
+   		void printHong(int number){
+   
+   					for(int i = 0; i < number; i++) {
+   					System.out.println("홍길동");
+   					}		
+   		}	
+   		
+//   		이름을 n번 println()으로 출력하는 메소드
+   			void printName(int number, String name){
+   					for(int i = 0; i < number; i++) {
+   						System.out.println(name);
+   					} 				
+   			}
+   			
+//   			세 정수의 뺄셈 메소드
+   			int sub(int number1, int number2, int number3){
+   				int result = number1 - number2 - number3;
+   				return result;
+   				
+   			}
+//   				
+//   			}
+//   			
+//   		}
+   
+   public static void main(String[] args) {
+//      메소드를 선언했다면, 반드시 사용해서 테스트한다.
+      MethodTask methodTask = new MethodTask();
+//      methodTask.printFrom1To10();
+//	   	methodTask.printHong(10);
+//      methodTask.printName(3, "구민경");
+      	methodTask.sub(50, 17, 6);
+      	
+      
+   }
+}
